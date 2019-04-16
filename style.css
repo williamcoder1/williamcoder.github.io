@@ -1,0 +1,96 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+div {
+    border: 1px solid red;
+    padding: 2px;
+}
+.signup {
+    display: flex;
+}
+.title {
+    text-align: center;
+}
+.hero {
+    text-align: center;
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    padding: 12%;
+}
+.one {
+    flex: 1;
+    padding-bottom: 10%;
+}
+.two {
+    flex: 1;
+    background-image: url(images/dessert.jpg);
+    background-size: cover;
+}
+.nav {
+    background-image: url(images/nav.jpg);
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+    list-style-type: none;
+}
+.nav a {
+    text-decoration: none;
+    color: #720824;
+}
+label {
+    display: block;
+    margin: 16px auto;
+}
+input {
+    width: 100%;    
+}
+span {
+    color: #a51038;
+}
+.burger, .steak {
+    display: flex;
+}
+.three {
+    flex: 1;
+    background-image: url(images/burger.jpg);
+    background-size: cover;
+    padding: 15%
+}
+.four, .five {
+    flex: 3;
+    text-align: center;
+}
+.six {
+   flex: 1;
+    background-image: url(images/steak.jpg);
+    background-size: cover;
+    padding:15%
+}
+.ramen, .kbbq {
+    display: flex;
+}
+.eight, .nine {
+    flex: 3;
+    text-align: center;
+}
+.seven {
+    flex: 1;
+    background-image: url(images/ramen.jpg);
+    background-size: cover;
+    padding: 15%;
+}
+.ten {
+    flex: 1;
+    background-image: url(images/kbbq.jpg);
+    background-size: cover;
+    padding: 15%;
+}
+
+
+
+
+
+
